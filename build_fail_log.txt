@@ -1,0 +1,29 @@
+
+> aroras-properties@0.0.0 build
+> vite build
+
+[36mvite v7.3.1 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32m✓[39m 2152 modules transformed.
+[31m✗[39m Build failed in 4.20s
+[31merror during build:
+[31msrc/pages/Home.jsx (7:7): "default" is not exported by "src/components/home/Services.jsx", imported by "src/pages/Home.jsx".[31m
+file: [36mD:/Chandan Dubey/Desktop/React/aroras-properties/src/pages/Home.jsx:7:7[31m
+[33m
+5: import About from '../components/home/About';
+6: import FeaturedProperties from '../components/home/FeaturedProperties';
+7: import Services from '../components/home/Services';
+          ^
+8: import Testimonials from '../components/home/Testimonials';
+9: import HomeContactCTA from '../components/home/HomeContactCTA';
+[31m
+    at getRollupError (file:///D:/Chandan%20Dubey/Desktop/React/aroras-properties/node_modules/rollup/dist/es/shared/parseAst.js:402:41)
+    at error (file:///D:/Chandan%20Dubey/Desktop/React/aroras-properties/node_modules/rollup/dist/es/shared/parseAst.js:398:42)
+    at Module.error (file:///D:/Chandan%20Dubey/Desktop/React/aroras-properties/node_modules/rollup/dist/es/shared/node-entry.js:17040:16)
+    at Module.traceVariable (file:///D:/Chandan%20Dubey/Desktop/React/aroras-properties/node_modules/rollup/dist/es/shared/node-entry.js:17452:29)
+    at ModuleScope.findVariable (file:///D:/Chandan%20Dubey/Desktop/React/aroras-properties/node_modules/rollup/dist/es/shared/node-entry.js:15070:39)
+    at ReturnValueScope.findVariable (file:///D:/Chandan%20Dubey/Desktop/React/aroras-properties/node_modules/rollup/dist/es/shared/node-entry.js:5673:38)
+    at FunctionBodyScope.findVariable (file:///D:/Chandan%20Dubey/Desktop/React/aroras-properties/node_modules/rollup/dist/es/shared/node-entry.js:5673:38)
+    at Identifier.bind (file:///D:/Chandan%20Dubey/Desktop/React/aroras-properties/node_modules/rollup/dist/es/shared/node-entry.js:5447:40)
+    at CallExpression.bind (file:///D:/Chandan%20Dubey/Desktop/React/aroras-properties/node_modules/rollup/dist/es/shared/node-entry.js:2825:28)
+    at CallExpression.bind (file:///D:/Chandan%20Dubey/Desktop/React/aroras-properties/node_modules/rollup/dist/es/shared/node-entry.js:12179:15)[39m
