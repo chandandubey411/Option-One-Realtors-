@@ -15,7 +15,7 @@ const ContactHero = () => {
             </div>
 
             {/* Content */}
-            <FadeInUp className="relative z-10 text-center px-4 max-w-4xl mx-auto">
+            <FadeInUp className="relative z-10 text-center px-4 max-w-4xl mx-auto md:mt-8">
                 <span className="block text-secondary font-bold tracking-widest uppercase mb-4 text-sm md:text-base">
                     Get in Touch
                 </span>
